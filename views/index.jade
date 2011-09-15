@@ -1,4 +1,4 @@
-section(data-role="page", id="one")
+section(data-role="page", id="one",data-position="fixed",data-id="header")
   section(data-role="header")
     h1= title
   section(data-role="content")
@@ -8,7 +8,7 @@ section(data-role="page", id="one")
     a(href="#login", data-role="button" , data-theme="c" ,class="ui-btn ui-btn-corner-all ui-shadow ui-btn-hover-c ui-btn-up-c")
       span(class="ui-btn-inner ui-btn-corner-all")
         span(class="ui-btn-text") Login
-  footer(data-role="footer")
+  footer(data-role="footer",data-position="fixed",data-id="footer")
     h4 (c) numbus Inc
 
 include includes/acerca
