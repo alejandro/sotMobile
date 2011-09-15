@@ -1,21 +1,2 @@
-section(data-role="page", id="one")
-  section(data-role="header")
-    h1= title
-  section(data-role="content")
-    p View internal page called 
-      a(href="#acerca") Acerca
-    a(href="#popup", data-role="button" ,data-rel="dialog", data-transition="pop", data-theme="c" ,class="ui-btn ui-btn-corner-all ui-shadow ui-btn-hover-c ui-btn-up-c")
-      span(class="ui-btn-inner ui-btn-corner-all")
-        span(class="ui-btn-text") Show page "popup" (as a dialog)
-  footer(data-role="footer")
-    h4 (c) numbus Inc
-
-section(data-role="page", id="acerca")
-  header(data-role="header")
-    h1 Acerca
-  section(data-role="content")
-    p I'm first in the source order so I'm shown as the page.
-    p 
-      a(href="#one") Regresar
-  footer(data-role="footer")
-    h4 (c) numbus Inc
+h1= title
+  p Welcome to #{title}

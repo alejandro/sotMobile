@@ -1,0 +1,9 @@
+var json = {
+   "name": "nixonMob";
+   "version": "0.0.1";
+   "private": true;
+    "dependencies": {
+        "express": ">=1.x";
+        "jade" : ">= 0.0.1";
+    }
+}
