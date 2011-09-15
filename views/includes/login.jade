@@ -1,0 +1,26 @@
+section(data-role="page", id="login")
+  header(data-role="header")
+    a(href="#one", data-icon="arrow-l", class="ui-btn-left ui-btn ui-btn-icon-left ui-btn-corner-all ui-shadow ui-btn-up-a", data-theme="a")
+      span(class="ui-btn-inner ui-btn-corner-all")
+        span(class="ui-btn-text") Regresar
+        span(class="ui-icon ui-icon-arrow-l ui-icon-shadow")
+    h1 Login
+  section(data-role="content")
+    form(action="#", method="put")
+      h2 Ingresa tus datos
+      div(data-role="fieldcontain", class="ui-field-contain ui-body ui-br")
+        label(for="name", class="ui-input-text") Nombre de Usuario
+        input(type="text", name="name", id="user[username]", value="", class="ui-input-text ui-body-null ui-corner-all ui-shadow-inset ui-body-c")    
+      div(data-role="fieldcontain", class="ui-field-contain ui-body ui-br")
+        label(for="password", class="ui-input-text") Password
+        input(type="password", name="password", id="user[password]", value="", class="ui-input-text ui-body-null ui-corner-all ui-shadow-inset ui-body-c")    
+      div(class="ui-body ui-body-b")
+        fieldset(class="ui-grid-a")
+          div(class="ui-block-b")
+            div(data-theme="e", class="ui-btn ui-btn-up-a ui-btn-corner-all ui-shadow", aria-disabled="false")
+              button(type="submit", data-theme="a", class="ui-btn-hidden", aria-disabled="false") Cancel
+          div(class="ui-block-b")
+            div(data-theme="e", class="ui-btn ui-btn-up-a ui-btn-corner-all ui-shadow", aria-disabled="false")
+              button(type="submit", data-theme="a", class="ui-btn-hidden", aria-disabled="false") Submit
+  footer(data-role="footer")
+    h4 (c) numbus Inc
